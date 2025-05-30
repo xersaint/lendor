@@ -33,7 +33,7 @@ const LoginPage = () => {
         
         Login
       </h1>
-      <form className="flex flex-col gap-2 max-w-lg mx-auto mt-12 border-1" onSubmit={handleFormSubmit}>
+      <form className="flex flex-col gap-2 max-w-lg mx-auto mt-12" onSubmit={handleFormSubmit}>
         {/* <EmailInput emailValue={email} setEmail={setEmail} disabled={loginInProgress} className="mb-4 bg-transparent" /> */}
         <label htmlFor="email" className="text-white text-xl">Email</label>
         <input type="email" name="" id="email" value={email} onChange={(e :any) => setEmail(e.target.value)} className="bg-white p-2 mb-5 text-primary-200" />
